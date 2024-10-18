@@ -18,15 +18,15 @@
             margin-top: 10px;
             text-decoration: none;
             color: white;
-            background-color: #333;
-            border: 1px solid #333;
+            background-color: #8080ff;
+            border: 1px solid #8080ff;
             border-radius: 5px;
         }
 
         .btn-link:hover {
-            background-color: #f5b700;
+            background-color: #6643b5;
             color:black;
-            border: 1px solid #f5b700;
+            border: 1px solid #6643b5;
         }
 
         .form-group {
@@ -37,7 +37,7 @@
         .form-group .form-control {
             height: 30px; /* Reduced height */
             padding-bottom: 10px !important;
-            border-bottom: solid #f5b700 !important;
+            border-bottom: solid #000 !important;
             
         }
 
@@ -51,12 +51,12 @@
 <body>
 
 <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-2" style="background-image: url('../logo-white.png');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('../WE.png');"></div>
     <div class="contents order-2 order-md-1">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-7">
-                    <h1>Login as <br><strong><span style="color: #F5B700; font-size: 4rem;">User</span></strong></h1>
+                    <h1>Login as <br><strong><span style="color: #ff5757; font-size: 4rem;">User</span></strong></h1>
                     <form action="/TakeTest/UserLogin" method="post">
                         <div class="form-group first" style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
                             <label for="mobile"><b>Enter your mobile</b></label>

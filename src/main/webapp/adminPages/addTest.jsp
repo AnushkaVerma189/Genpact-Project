@@ -45,7 +45,7 @@
     }
     
     button[type="submit"] {
-        background-color: #f5b700;
+        background-color: #8080ff;
         color: white;
         cursor: pointer;
         transition: background-color 0.3s;
@@ -58,7 +58,7 @@
     
     .dashboard-btn {
         float: right;
-        background-color: #008CBA;
+        background-color: #6643b5;
         color: white;
         border: none;
         border-radius: 4px;
@@ -87,7 +87,7 @@
             <input type="text" id="test_tag" name="test_tag" placeholder="Test Tag (Max 20 characters)" required maxlength="20">
             
             <label for="questions" style="font-size: 14px; margin-top: 10px">Enter Number of Questions</label>
-            <input type="number" id="questions" name="questions" placeholder="Questions (Max 10 ques)" required max="10" min = "1">
+            <input type="number" id="questions" name="questions" placeholder="Questions (Max 50 ques)" required max="50" min = "1">
             
             <label for="pass_marks" style="font-size: 14px; margin-top: 10px"> Enter Pass Marks</label>
             <input type="number" id="pass_marks" name="pass_marks" min="0" placeholder="Pass marks (considering 1 mark for each question)" required>

@@ -59,7 +59,7 @@
     button {
         margin-top: 20px;
         padding: 10px 20px;
-        background-color: #f5b700;
+        background-color: #8080ff;
         color: white;
         border: none;
         border-radius: 5px;
@@ -69,7 +69,7 @@
     }
     
     button.goBack {
-        background-color: red;
+        background-color: #6643b5;
     }
     button:hover {
         font-size: 18px;

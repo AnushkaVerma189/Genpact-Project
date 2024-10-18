@@ -34,7 +34,7 @@
 
     /* User details styling */
     .user-details {
-      background-color: rgba(245, 183, 0, 1);
+      background-color: #dbd8e3;
       border-radius: 10px;
       padding: 20px;
       color: #333;
@@ -66,7 +66,7 @@
     }
 
     th {
-      background-color:  rgba(245, 183, 0, 1);
+      background-color:  #dbd8e3;
       color: #333;
     }
 

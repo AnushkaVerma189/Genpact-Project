@@ -89,7 +89,7 @@
         display: block;
         margin: 20px auto 0;
         padding: 10px 20px;
-        background-color: #f5b700;
+        background-color: #8080ff;
         color: black;
         border: none;
         border-radius: 5px;
@@ -98,7 +98,7 @@
     }
 
     .dashboard-btn:hover, .add-ques:hover {
-        background-color: #f3a200;
+        background-color: #6643b5;
         font-size: 16px;
 
     }
@@ -107,7 +107,7 @@
         display: block;
         margin: 20px auto 0;
         padding: 10px 20px;
-        background-color: #4CAF50;
+        background-color: #8080ff;
         color: white;
         border: none;
         border-radius: 5px;
@@ -119,7 +119,7 @@
     	display: block;
         padding: 8px 15px;
         font-size: 15px;
-        background-color: #f5b700;
+        background-color: #8080ff;
         color: black;
         border: none;
         border-radius: 5px;
@@ -128,7 +128,7 @@
     }
 
     .save-btn:hover {
-        background-color: #45a049;
+        background-color: #6643b5;
         font-size: 17px;
     }
 </style>

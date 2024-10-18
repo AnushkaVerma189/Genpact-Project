@@ -44,7 +44,7 @@ header h1 {
 }
 
 .header-buttons a:hover {
-	background-color: #f5b700;
+	background-color: #6643b5;
 	color: #333;
 	border: 1px solid #f5b700;
 	border-radius: 5px;
@@ -82,7 +82,7 @@ tr:nth-child(even) {
 
 .btn {
 	padding: 6px 10px;
-	background-color: #f5b600;
+	background-color: #8080ff;
 	color: black;
 	font-size: 13px;
 	border: none;
@@ -92,7 +92,7 @@ tr:nth-child(even) {
 
 .logout-btn {
 	padding: 6px 10px;
-	background-color: red;
+	background-color: #6643b5;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -104,7 +104,7 @@ tr:nth-child(even) {
 }
 
 .btn:hover {
-	background-color: #f3a200;
+	background-color: #6643b5;
 }
 </style>
 
@@ -122,7 +122,7 @@ tr:nth-child(even) {
 
 	<header>
 		<h1>
-			Take<span style="color: #f5b700;">Test</span>
+			Skill<span style="color: rgb(255, 0, 128);">Edge</span>
 		</h1>
 		<div class="header-buttons">
 			<a href="/TakeTest/adminPages/addTest.jsp">Add New Test</a> 

@@ -24,7 +24,7 @@
   font-size: 24px;
   padding: 5px;
   margin-bottom: 15px;
-  background-color: #1cac78;
+  background-color: #8080ff;
   color: white;
   border-radius: 5px;
 }
@@ -129,14 +129,14 @@
       color: black;
     }
     .question-nav a.marked-for-review {
-      background-color: #f5b700 !important;
+      background-color: #6643b5 !important;
       color: white;
     }
     .question-nav a:hover {
       background-color: #e0e0e0;
     }
     #markForReviewButton:hover {
-      background-color: #f5b100;
+      background-color: #6643b5;
     }
     button {
       color: black;
@@ -205,7 +205,7 @@
 	}
 	
 	#fullscreen-modal .buttons button#enter-fullscreen-button {
-	    background-color: #4CAF50; /* Green button */
+	    background-color: #5c5470; /* Green button */
 	    color: #fff; /* White text */
 	}
 	
@@ -238,7 +238,7 @@
       <div class="buttons-section">
         <button id="prevButton" disabled>Previous</button>
         <button id="nextButton">Next</button>
-        <button id="markForReviewButton" style="background-color: #f5b700">Mark for Review</button>
+        <button id="markForReviewButton" style="background-color: #8080ff">Mark for Review</button>
         <button id="submitButton" style="display: none; color: white;">Submit Test</button>
       </div>
       <% } %>
@@ -424,7 +424,7 @@
     const userResponses = new Array(questions.length).fill(null);
     const markedForReview = new Array(questions.length).fill(false);
 
-    const totalTime = questions.length * 1 * 60; // 5 minutes per question, in seconds
+    const totalTime = questions.length * 1 * 300; // 5 minutes per question, in seconds
     let remainingTime = totalTime;
     let timerInterval;
 

@@ -50,9 +50,9 @@ header h1 {
 }
 
 .header-buttons a:hover {
-	background-color: #f5b700;
+	background-color: #6643b5;
 	color: #333;
-	border: 1px solid #f5b700;
+	border: 1px solid #6643b5;
 	border-radius: 5px;
 }
 
@@ -88,7 +88,7 @@ tr:nth-child(even) {
 
 .btn {
 	padding: 6px 10px;
-	background-color: #f5b600;
+	background-color: #8080ff;
 	color: black;
 	border: none;
 	border-radius: 5px;
@@ -97,7 +97,7 @@ tr:nth-child(even) {
 
 .logout-btn {
 	padding: 6px 10px;
-	background-color: #bb0a21;
+	background-color: #8080ff;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -105,7 +105,7 @@ tr:nth-child(even) {
 }
 
 .btn:hover {
-	background-color: #f3a200;
+	background-color: #6643b5;
 }
 
 .btn:disabled {

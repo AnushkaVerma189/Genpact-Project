@@ -83,7 +83,7 @@ body {
 }
 
 .score-graphic-inner.failed {
-	background-color: red;
+	background-color: #8080ff;
 }
 
 .score-graphic-circle {
@@ -124,7 +124,7 @@ body {
 	display: block;
 	margin: 0 10px;
 	padding: 10px 20px;
-	background-color: #f5b700;
+	background-color: #6643b5;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -134,7 +134,7 @@ body {
 }
 
 .actions a.logout {
-	background-color: red;
+	background-color: #8080ff;
 }
 
 .actions a:hover {
